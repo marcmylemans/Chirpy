@@ -15,6 +15,13 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
+group :jekyll_plugins do
+  gem "jekyll-youtube"
+  gem "jekyll-include-cache"
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+end
+
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
